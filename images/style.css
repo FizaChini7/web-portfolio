@@ -1,4 +1,6 @@
-
+body{
+    margin: 0px;
+}
 h1{
 
     font-size: 50px;
@@ -7,10 +9,20 @@ h1{
 h2.bol{
     color: blue;
 }
-.name-highlight{
+.orange-highlight{
 
     color:coral;
 }
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+.colo{
+    color:darkblue;
+}
+
 .width {
     width:40%;
     float:left;
@@ -23,3 +35,56 @@ h2.bol{
 .para{
    font-size:20px
 }
+.orange{
+    background-color:coral;
+    color: white;
+}
+.link-button{
+    text-decoration:none;
+    background-image:linear-gradient(45deg,lightsalmon,tomato) ;
+    padding:10px 20px;
+    color:white;
+    font-weight: 800;
+    border-radius: 5px;
+
+}
+.top-banner{
+    background-image: url("top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height:500px;
+    padding-bottom: 150px;
+}
+.dream-area{
+    background-image: url("dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-shadow{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 80%;
+    background-color: white;
+}
+.experience{
+    background-image: url("exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#linecolororange-fullstack{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#linecolorblue-babystack{
+    border-left:7px solid ;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 13px;
+}
+
+
